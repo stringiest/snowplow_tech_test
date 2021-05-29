@@ -20,5 +20,7 @@ I used the Ruby tracker from the [Snowplow Analytics tracker library](https://do
 5. run `rails db:migrate` to run migrations on database
 
 ## Progress notes
+### 29/05/2021
+Set up rails project. Had initial read through of Snowplow Micro set-up and the Ruby tracker documentation.
 
 ## Extensions to Project
