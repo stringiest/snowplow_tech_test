@@ -18,7 +18,7 @@ You can use auto-tracked (e.g. page view, link clicks, form tracking in the JS t
 When you're ready to submit, please send us a link to your GitHub repo. Please include a readme introducing us to your project and with details on how to run it. 
 
 To recap:
- - [ ] Set up Snowplow Micro
+ - [X] Set up Snowplow Micro
  - [ ] Choose a tracker and experiment with it
  - [ ] Build an example app and embed tracking
  - [ ] Add a readme introducing us to your project
