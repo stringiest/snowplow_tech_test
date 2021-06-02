@@ -28,6 +28,6 @@ I would also be interested to expand the use of trackers, in order to see which 
 
 Lastly, I would add some basic styling to the app.
 
-## Snowplow Micro snapshot
+## Snowplow Micro screenshot
 
-![snowplow micro screenshot](images/Snowplow Micro screen shot.png)
+![snowplow micro screenshot](images/Snowplow_Micro_screen_shot.png)
