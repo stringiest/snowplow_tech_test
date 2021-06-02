@@ -18,6 +18,8 @@ I used the Ruby tracker from the [Snowplow Analytics tracker library](https://do
 3. run `bundle install`
 4. create the development and test databases in postgresql (blog_development and blog_test, respectively)
 5. run `rails db:migrate` to run migrations on database
+6. run `rails server` to start the rails server
+7. in a separate window run `docker run --mount type=bind,source=$(pwd)/example,destination=/config -p 9090:9090 snowplow/snowplow-micro:1.1.2 --collector-config /config/micro.conf --iglu /config/iglu.json` to start the trackers
 
 ## Extensions to Project
 With more time I would have fixed the test to delete an article, and added the ability for users to comment on articles. 
