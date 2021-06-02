@@ -19,8 +19,8 @@ When you're ready to submit, please send us a link to your GitHub repo. Please i
 
 To recap:
  - [X] Set up Snowplow Micro
- - [ ] Choose a tracker and experiment with it
- - [ ] Build an example app and embed tracking
+ - [X] Choose a tracker and experiment with it
+ - [X] Build an example app and embed tracking
  - [ ] Add a readme introducing us to your project
  - [ ] Send us your GitHub repo
  - [ ] Get ready to talk about it with us!
