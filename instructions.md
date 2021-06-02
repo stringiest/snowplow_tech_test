@@ -21,9 +21,9 @@ To recap:
  - [X] Set up Snowplow Micro
  - [X] Choose a tracker and experiment with it
  - [X] Build an example app and embed tracking
- - [ ] Add a readme introducing us to your project
- - [ ] Send us your GitHub repo
- - [ ] Get ready to talk about it with us!
+ - [X] Add a readme introducing us to your project
+ - [X] Send us your GitHub repo
+ - [X] Get ready to talk about it with us!
 
 As a guide, we're expecting you to spend 4 +/- 2 hours on this task. We're not expecting a fully functional or expertly designed app, or a sophisticating tracking strategy. We're looking to see how you experiment, learn and solve problems. Most importantly, we're looking forward to speaking with you about it.
 

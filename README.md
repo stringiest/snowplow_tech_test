@@ -16,11 +16,12 @@ I used the Ruby tracker from the [Snowplow Analytics tracker library](https://do
 1. Clone this repo
 2. cd into the new folder
 3. run `bundle install`
-4. create the development and test databases in postgresql
+4. create the development and test databases in postgresql (blog_development and blog_test, respectively)
 5. run `rails db:migrate` to run migrations on database
 
-## Progress notes
-### 29/05/2021
-Set up rails project. Had initial read through of Snowplow Micro set-up and the Ruby tracker documentation.
-
 ## Extensions to Project
+With more time I would have fixed the test to delete an article, and added the ability for users to comment on articles. 
+
+I would also be interested to expand the use of trackers, in order to see which articles were the most popular.
+
+Lastly, I would add some basic styling to the app.
