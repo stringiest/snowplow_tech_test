@@ -1,21 +1,21 @@
+# frozen_string_literal: true
+
 require 'snowplow-tracker'
 
 class ArticlesController < ApplicationController
   before_action :find_article, only: %i[edit update destroy show]
 
-  
-
   def index
     @articles = Article.all
-    t1 = SnowplowTracker::Tracker.new(SnowplowTracker::AsyncEmitter.new("localhost:9090"), nil, "t1")
-    t1.set_platform("cnsl")
-    t1.track_page_view("http://localhost:3000")
+    t1 = SnowplowTracker::Tracker.new(SnowplowTracker::AsyncEmitter.new('localhost:9090'), nil, 't1')
+    t1.set_platform('cnsl')
+    t1.track_page_view('http://localhost:3000')
   end
 
   def show
-    t2 = SnowplowTracker::Tracker.new(SnowplowTracker::AsyncEmitter.new("localhost:9090"), nil, "t2")
-    t2.set_platform("cnsl")
-    t2.track_page_view("http://localhost:3000/articles/1")
+    t2 = SnowplowTracker::Tracker.new(SnowplowTracker::AsyncEmitter.new('localhost:9090'), nil, 't2')
+    t2.set_platform('cnsl')
+    t2.track_page_view('http://localhost:3000/articles/1')
   end
 
   def new
@@ -35,7 +35,6 @@ class ArticlesController < ApplicationController
   def edit; end
 
   def update
-
     if @article.update(article_params)
       redirect_to articles_url
     else
